@@ -1,3 +1,69 @@
 * {
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.link {
+  color: #858585;
+
+  &:link,
+  &:visited,
+  &:active {
+    color: #858585;
+  }
+
+  &:hover {
+      text-decoration: none;
+      opacity: .9;
+  }
+}
+
+.main-section__header {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  display: flexbox;
+  justify-content: space-between;
+  height: 6em;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  position: sticky;
+  top: 0;
+  font-family: "Cinzel", serif;
+  color: #858585;
+
+  .main-section__logo {
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+    .link {
+      text-transform: uppercase;
+
+      line-height: 1.4em;
+      font-size: 26px;
+    }
+  }
+
+  .main-section__nav {
+    margin-right: 7%;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 400;
+    font-size: 15px;
+
+    .main-section__nav__list {
+      .nav-item {
+        padding: 0 20px;
+      }
+    }
+  }
+}
+
+.main-section {
+  width: 90%;
+  margin: 0 auto;
+  height: 900px;
+  background-image: url("/app/img/main-section.jpg");
+  background-size: contain;
 }
