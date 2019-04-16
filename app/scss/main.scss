@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+// Header/ nawigacja
 .link {
   color: #858585;
 
@@ -14,8 +15,8 @@
   }
 
   &:hover {
-      text-decoration: none;
-      opacity: .9;
+    text-decoration: none;
+    opacity: 0.9;
   }
 }
 
@@ -32,6 +33,7 @@
   top: 0;
   font-family: "Cinzel", serif;
   color: #858585;
+  z-index: 5;
 
   .main-section__logo {
     display: flex;
@@ -39,7 +41,6 @@
     margin-left: 7%;
     .link {
       text-transform: uppercase;
-
       line-height: 1.4em;
       font-size: 26px;
     }
@@ -60,10 +61,270 @@
   }
 }
 
+// main section
 .main-section {
   width: 90%;
   margin: 0 auto;
   height: 900px;
   background-image: url("/app/img/main-section.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .main-section__title {
+    font-variant: small-caps;
+    font-size: 90px;
+    color: #858585;
+    font-family: "Cinzel", serif;
+    margin: 0;
+  }
+
+  .main-section__par {
+    text-transform: uppercase;
+    color: #858585;
+    letter-spacing: 10px;
+    margin-bottom: 22px;
+    font-size: 25px;
+    font-family: "Cinzel", serif;
+  }
+
+  .btn {
+    border: 1px solid #959595;
+    border-radius: 0;
+    color: #858585;
+    background: transparent;
+    font-family: "Cinzel", serif;
+    padding: 13px;
+    transition: all 0.6s ease-in-out;
+
+    &:hover {
+      cursor: pointer;
+      background: #c3c3c3;
+      color: #fff;
+    }
+  }
+}
+
+.banner-space {
+  height: 40px;
+  width: 100%;
+  background: url("/app/img/banner.png");
   background-size: contain;
+  margin: 2% 0;
+}
+
+// kontakt
+.contact-section {
+  width: 90%;
+  margin: 0 auto;
+  height: 900px;
+  display: flex;
+  display: flexbox;
+
+  .contact-section__img-container {
+    height: 100%;
+    width: 50%;
+    background: url("/app/img/form-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .contact-section__content-container {
+    height: 100%;
+    width: 50%;
+    background: #f0f3f6;
+
+    .contact {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      display: flexbox;
+      flex-direction: column;
+      font-family: "Cinzel", serif;
+      color: #292929;
+      line-height: 2.5em;
+      align-items: center;
+
+      .contact__info {
+        height: 50%;
+        padding: 6% 12% 0;
+        display: flex;
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+
+        .contact__info__header {
+        }
+
+        .contact__info__content {
+          margin-top: 10px;
+        }
+      }
+
+      .contact__form {
+        height: 50%;
+        width: 60%;
+        display: flex;
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+
+        .form-item {
+          width: 90%;
+          margin-top: 10px;
+          height: 7%;
+        }
+
+        .form-item__textarea {
+          height: 30%;
+        }
+
+        .btn-contact {
+          margin-top: 10px;
+          color: #fff;
+          background: #273a4e;
+          border-radius: 0;
+          transition: all 0.6s ease-in-out;
+
+          &:hover {
+            cursor: pointer;
+            background: #fff;
+            color: #273a4e;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ONAS
+
+.aboutUs-section {
+  width: 90%;
+  margin: 0 auto;
+  height: 900px;
+  display: flex;
+  display: flexbox;
+
+  .aboutUs-section__img-container {
+    height: 100%;
+    width: 50%;
+    background: url("/app/img/oNas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .aboutUs-section__content-container {
+    height: 100%;
+    width: 50%;
+    background: #f0f3f6;
+
+    .aboutUs {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      display: flexbox;
+      flex-direction: column;
+      font-family: "Cinzel", serif;
+      color: #292929;
+      line-height: 2em;
+      align-items: center;
+
+      .aboutUs__info {
+        height: 50%;
+        padding: 6% 12% 0;
+        display: flex;
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+
+        .aboutUs__info__header {
+          align-self: flex-start;
+          margin-left: 15%;
+        }
+
+        .aboutUs__info__content {
+          margin-top: 10px;
+          width: 70%;
+        }
+      }
+    }
+  }
+}
+
+//OFERTA
+
+.offert-section {
+  width: 93%;
+  margin: 0 auto;
+  padding: 0;
+  
+
+  .row {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    .offert-section__item {
+      height: 70vh;
+      display: flex;
+      display: flexbox;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin-bottom: 5px;
+      border: 4px solid #fff;
+    }
+  
+    .krzesla {
+      background: url("/app/img/krzesla.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  
+    .gabinetowe {
+      background: url("/app/img/gabinetowe.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  
+    .biurowe {
+      background: url("/app/img/biurowe.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  
+    .chillout {
+      background: url("/app/img/chillout.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  
+    .recepcje {
+      background: url("/app/img/recepcje.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  
+    .konferencyjne {
+      background: url("/app/img/konferencyjne.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+
+  
 }
