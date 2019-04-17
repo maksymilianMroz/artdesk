@@ -45,7 +45,7 @@
 .main-section {
   width: 90%;
   margin: 0 auto;
-  height: 900px;
+  height: 77vh;
   background-image: url("../img/main-section.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@
 .contact-section {
   width: 90%;
   margin: 0 auto;
-  height: 900px;
+  height: 77vh;
   display: flex;
   display: flexbox; }
   .contact-section .contact-section__img-container {
@@ -113,7 +113,7 @@
       flex-direction: column;
       font-family: "Cinzel", serif;
       color: #292929;
-      line-height: 2.5em;
+      line-height: 2.2em;
       align-items: center; }
       .contact-section .contact-section__content-container .contact .contact__info {
         height: 50%;
@@ -153,7 +153,7 @@
 .aboutUs-section {
   width: 90%;
   margin: 0 auto;
-  height: 900px;
+  height: 77vh;
   display: flex;
   display: flexbox; }
   .aboutUs-section .aboutUs-section__img-container {
