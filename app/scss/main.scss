@@ -158,9 +158,10 @@
         display: flexbox;
         flex-direction: column;
         align-items: center;
+        text-align: justify;
 
-        .contact__info__header {
-        }
+        // .contact__info__header {
+        // }
 
         .contact__info__content {
           margin-top: 10px;
@@ -191,6 +192,7 @@
           background: #273a4e;
           border-radius: 0;
           transition: all 0.6s ease-in-out;
+          border: 1px solid #273a4e;
 
           &:hover {
             cursor: pointer;
@@ -244,6 +246,7 @@
         display: flexbox;
         flex-direction: column;
         align-items: center;
+        text-align: justify;
 
         .aboutUs__info__header {
           align-self: flex-start;
@@ -265,7 +268,6 @@
   width: 93%;
   margin: 0 auto;
   padding: 0;
-  
 
   .row {
     width: 100%;
@@ -279,45 +281,54 @@
       justify-content: center;
       align-items: center;
       padding: 0;
-      margin-bottom: 5px;
       border: 4px solid #fff;
+      font-variant: small-caps;
+      color: #f5f5f5;
+      margin: 0;
+
+      .offert-section__header {
+        font-size: 2.7em;
+        text-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
+        font-weight: bold;
+        font-family: "Cinzel", serif;
+      }
     }
-  
+
     .krzesla {
       background: url("/app/img/krzesla.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
     }
-  
+
     .gabinetowe {
       background: url("/app/img/gabinetowe.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
     }
-  
+
     .biurowe {
       background: url("/app/img/biurowe.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
     }
-  
+
     .chillout {
       background: url("/app/img/chillout.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
     }
-  
+
     .recepcje {
       background: url("/app/img/recepcje.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
     }
-  
+
     .konferencyjne {
       background: url("/app/img/konferencyjne.jpg");
       background-size: cover;
@@ -325,6 +336,4 @@
       background-position: center center;
     }
   }
-
-  
 }
