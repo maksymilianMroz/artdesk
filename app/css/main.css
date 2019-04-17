@@ -46,7 +46,7 @@
   width: 90%;
   margin: 0 auto;
   height: 900px;
-  background-image: url("/app/img/main-section.jpg");
+  background-image: url("../img/main-section.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -84,7 +84,7 @@
 .banner-space {
   height: 40px;
   width: 100%;
-  background: url("/app/img/banner.png");
+  background: url("../img/banner.png");
   background-size: contain;
   margin: 2% 0; }
 
@@ -97,7 +97,7 @@
   .contact-section .contact-section__img-container {
     height: 100%;
     width: 50%;
-    background: url("/app/img/form-img.jpg");
+    background: url("../img/form-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; }
@@ -159,7 +159,7 @@
   .aboutUs-section .aboutUs-section__img-container {
     height: 100%;
     width: 50%;
-    background: url("/app/img/oNas.jpg");
+    background: url("../img/oNas.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; }
@@ -217,32 +217,32 @@
         font-weight: bold;
         font-family: "Cinzel", serif; }
     .offert-section .row .krzesla {
-      background: url("/app/img/krzesla.jpg");
+      background: url("../img/krzesla.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center; }
     .offert-section .row .gabinetowe {
-      background: url("/app/img/gabinetowe.jpg");
+      background: url("../img/gabinetowe.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center; }
     .offert-section .row .biurowe {
-      background: url("/app/img/biurowe.jpg");
+      background: url("../img/biurowe.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center; }
     .offert-section .row .chillout {
-      background: url("/app/img/chillout.jpg");
+      background: url("../img/chillout.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center; }
     .offert-section .row .recepcje {
-      background: url("/app/img/recepcje.jpg");
+      background: url("../img/recepcje.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center; }
     .offert-section .row .konferencyjne {
-      background: url("/app/img/konferencyjne.jpg");
+      background: url("../img/konferencyjne.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center; }
