@@ -1,0 +1,45 @@
+.main-nav {
+    width: 90%;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    display: flex;
+    display: flexbox;
+    justify-content: space-between;
+    height: 6em;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-family: "Cinzel", serif;
+    color: #858585;
+    z-index: 5;
+  
+    .main-nav__logo {
+      display: flex;
+      align-items: center;
+      margin-left: 7%;
+      .link {
+        text-transform: uppercase;
+        line-height: 1.4em;
+        font-size: 26px;
+      }
+    }
+  
+    .main-nav-list-container {
+      margin-right: 7%;
+      font-weight: 400;
+      font-size: 15px;
+  
+      .main-nav-list-container__list {
+        .nav-item {
+          padding: 0 20px;
+          background: rgb(255, 255, 255);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 991.98px) { 
+      .main-nav {
+          padding: 2em 0;
+      }
+  }

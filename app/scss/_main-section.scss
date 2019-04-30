@@ -1,0 +1,76 @@
+// MAIN SECTION - HOME PAGE
+.main-section {
+  width: 90%;
+  margin: 0 auto;
+  height: 77vh;
+  padding: 0;
+  background-image: url("../img/main-section.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .main-section__title {
+    font-variant: small-caps;
+    font-size: 90px;
+    color: #858585;
+    font-family: "Cinzel", serif;
+    margin: 0;
+  }
+
+  .main-section__par {
+    text-transform: uppercase;
+    color: #858585;
+    letter-spacing: 10px;
+    margin-bottom: 22px;
+    font-size: 25px;
+    font-family: "Cinzel", serif;
+    text-align: center;
+  }
+
+  .btn {
+    border: 1px solid #959595;
+    border-radius: 0;
+    color: #858585;
+    background: transparent;
+    font-family: "Cinzel", serif;
+    padding: 13px;
+    transition: all 0.6s ease-in-out;
+
+    &:hover {
+      cursor: pointer;
+      background: #c3c3c3;
+      color: #fff;
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .main-section {
+    .main-section__title {
+      font-size: 40px;
+    }
+
+    .main-section__par {
+      font-size: 13px;
+      letter-spacing: 5px;
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main-section {
+    .main-section__title {
+      font-size: 60px;
+    }
+
+    .main-section__par {
+      font-size: 15px;
+    }
+  }
+}
+
