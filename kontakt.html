@@ -17,14 +17,14 @@
 
 
 
-    <nav id="main-nav" class="navbar navbar-expand-lg navbar-light main-section__header">
-        <a class="navbar-brand main-section__logo" href="index.html"><span class="link">Art desk</span></a>
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-light main-nav">
+        <a class="navbar-brand main-nav__logo" href="index.html"><span class="link">Art desk</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse main-section__nav" id="navbarSupportedContent">
-            <ul class=" main-section__nav__list nav navbar-nav ml-auto w-100 justify-content-end">
+        <div class="collapse navbar-collapse main-nav-list-container" id="navbarSupportedContent">
+            <ul class="main-nav-list-container__list nav navbar-nav ml-auto w-100 justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link link" href="index.html">Strona główna</a>
                 </li>
@@ -42,38 +42,42 @@
     </nav>
 
 
-    <section class="contact-section">
+    <section class="contact-section container-fluid">
+        <div class="row">
+            <div class="contact-section__img-container col-12 col-lg-6"></div>
+            <div class="contact-section__content-container col-12 col-lg-6">
+                <div class="contact">
+                    <div class="contact__info">
+                        <h1 class="contact__info__header">Skontaktuj się z nami</h1>
+                        <div class="contact__info__content">
+                            Poniżej znajdują się nasze numery telefonów, adresy e-mail oraz szablon dzięki któremu
+                            skontaktujesz się z nami.
 
-        <div class="contact-section__img-container"></div>
-        <div class="contact-section__content-container">
-            <div class="contact">
-                <div class="contact__info">
-                    <h1 class="contact__info__header">Skontaktuj się z nami</h1>
-                    <p class="contact__info__content">
-                        Poniżej znajdują się nasze numery telefonów, adresy e-mail oraz szablon dzięki któremu
-                        skontaktujesz się z nami.
+                            ​
 
-                        ​
+                            W razie jakichkolwiek pytań jesteśmy do Twoich usług.
+                            
+                            <div>Tel: 664137079 <br/> Email: maciej.jusinski@artdesk.com.pl</div>
+                            
+                            <div>Tel: 662686848 <br/> Email: aleksander.gedymin@artdesk.com.pl</div>
 
-                        W razie jakichkolwiek pytań jesteśmy do Twoich usług.
-                        <br />
-                        Tel: 664 137 079 | Email: maciej.jusinski@artdesk.com.pl
-                        <br />
-                        Tel: 662 686 848 | Email: aleksander.gedymin@artdesk.com.pl
-                    </p>
+
+
+                        </div>
+                        <form action="#" method="POST" autocomplete="on" class="contact__form">
+                            <input class="form-item" type="text" name="Name" autofocus placeholder="  Imię" required>
+                            <input class="form-item" type="email" name="Email" placeholder="  Twój mail" multiple required>
+                            <input class="form-item" type="text" placeholder="  Tytuł">
+                            <textarea class="form-item form-item__textarea" name="wiadomosc"
+                                placeholder="  Wiadomość"></textarea>
+                            <input class="btn btn-contact" type="submit" value="Wyślij">
+                        </form>
+                    </div>
+
+                    
                 </div>
-
-                <form action="#" method="POST" autocomplete="on" class="contact__form">
-                    <input class="form-item" type="text" name="Name" autofocus placeholder="  Imię" required>
-                    <input class="form-item" type="email" name="Email" placeholder="  Twój mail" multiple required>
-                    <input class="form-item" type="text" placeholder="  Tytuł">
-                    <textarea class="form-item form-item__textarea" name="wiadomosc"
-                        placeholder="  Wiadomość"></textarea>
-                    <input class="btn btn-contact" type="submit" value="Wyślij">
-                </form>
             </div>
         </div>
-
     </section>
 
     <section class="banner-space"></section>
